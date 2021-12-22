@@ -1,7 +1,16 @@
+h1{
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 iframe{
     height: 500px;
     width: 1000px;
-    
 }
 
 .div1{
