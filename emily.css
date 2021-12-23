@@ -84,6 +84,8 @@ iframe{
 
 .flex-container2 > div{
     background-color:lightgrey;
+    display: flex;
+    flex-flow: row wrap;
     margin: 10px;
     text-align: center;
     line-height: 75px;
