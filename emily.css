@@ -69,7 +69,7 @@ iframe{
     margin-bottom: 50px;
     margin-right: 500px;
     margin-left: 500px;
-    color: turquoise;
+    color: tomato;
 }
 
 .flex-container1 > div {
@@ -78,7 +78,7 @@ iframe{
     font-size: 20px;
     border-style: ridge;
     border-color: lightslategray;
-    color: turquoise;
+    color: tomato;
 }
 
 .flex-container2 > div{
