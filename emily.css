@@ -14,6 +14,13 @@ iframe{
     width: 1000px;
 }
 
-.div1{
+
+
+.flex-container > div {
+    background-color:lightgrey;
+    width: 1000px;
+    margin: 10px;
     text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
