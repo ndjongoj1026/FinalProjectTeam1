@@ -42,11 +42,11 @@ span {
 }
 
 .flex-container1 {
-    background-color: turquoise;
+    background-color: teal;
     display: flex;
     flex-direction: column;
     border-style: ridge;
-    border-color:lightslategray;
+    border-color:tomato;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 500px;
@@ -60,16 +60,16 @@ iframe{
 }
 
 .flex-container2 {
-    background-color: turquoise;
+    background-color:teal;
     flex-direction: column;
     border-style: ridge;
-    border-color:lightslategrey;
+    border-color:tomato;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 500px;
     margin-left: 500px;
-    color: tomato;
+    color: turquoise;
 }
 
 .flex-container1 > div {
@@ -77,8 +77,8 @@ iframe{
     margin: 10px;
     font-size: 20px;
     border-style: ridge;
-    border-color: lightslategray;
-    color: tomato;
+    border-color: tomato;
+    color: turquoise;
 }
 
 .flex-container2 > div{
@@ -90,5 +90,5 @@ iframe{
     line-height: 75px;
     font-size: 30px;
     border-style: ridge;
-    border-color: lightslategray;
+    border-color: tomato;
 }
