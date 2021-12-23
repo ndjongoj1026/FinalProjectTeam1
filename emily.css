@@ -1,8 +1,6 @@
 h1{
     text-align: center;
-    text-decoration: underline;
     font-size: 35px;
-    
 }
 
 
@@ -11,8 +9,8 @@ h1{
     flex-flow: row wrap;
     border-style: ridge;
     border-color:lightslategray;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-right: 500px;
     margin-left: 500px;
     justify-content: center;
@@ -20,15 +18,15 @@ h1{
 
 iframe{
     height: 500px;
-    width: 1000px;
+    width: 850px;
 }
 
 .flex-container2 {
     flex-direction: column;
     border-style: ridge;
     border-color:lightslategray;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-right: 500px;
     margin-left: 500px;
 }
@@ -39,10 +37,9 @@ iframe{
     font-size: 20px;
     border-style: ridge;
     border-color: lightslategray;
-    
 }
 
-.flex-container2 > div {
+.flex-container2 > div{
     background-color:lightgrey;
     margin: 10px;
     text-align: center;
