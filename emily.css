@@ -1,17 +1,21 @@
 h1{
     text-align: center;
     text-decoration: underline;
+    font-size: 35px;
     
 }
 
-.flex-container {
+
+.flex-container1 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     border-style: ridge;
     border-color:lightslategray;
-    width: 1000px;
-    margin: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    margin-left: 500px;
+    justify-content: center;
 }
 
 iframe{
@@ -19,11 +23,27 @@ iframe{
     width: 1000px;
 }
 
+.flex-container2 {
+    flex-direction: column;
+    border-style: ridge;
+    border-color:lightslategray;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
 
-
-.flex-container > div {
+.flex-container1 > div {
     background-color:lightgrey;
-    width: 1000px;
+    margin: 10px;
+    font-size: 20px;
+    border-style: ridge;
+    border-color: lightslategray;
+    
+}
+
+.flex-container2 > div {
+    background-color:lightgrey;
     margin: 10px;
     text-align: center;
     line-height: 75px;
