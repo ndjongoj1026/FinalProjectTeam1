@@ -41,30 +41,8 @@ span {
     color: tomato;
 }
 
-h1{
-    text-align: center;
-    font-size: 35px;
-}
-
-
 .flex-container1 {
     display: flex;
-    flex-flow: row wrap;
-    border-style: ridge;
-    border-color:lightslategray;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 500px;
-    margin-left: 500px;
-    justify-content: center;
-}
-
-iframe{
-    height: 500px;
-    width: 850px;
-}
-
-.flex-container2 {
     flex-direction: column;
     border-style: ridge;
     border-color:lightslategray;
@@ -72,20 +50,39 @@ iframe{
     margin-bottom: 50px;
     margin-right: 500px;
     margin-left: 500px;
+    
+}
+
+iframe{
+    height: 500px;
+    width: 873px;
+}
+
+.flex-container2 {
+    flex-direction: column;
+    border-style: ridge;
+    border-color:lightslategrey;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    color: turquoise;
 }
 
 .flex-container1 > div {
-    background-color:lightgrey;
+    background-color:black;
     margin: 10px;
     font-size: 20px;
     border-style: ridge;
     border-color: lightslategray;
+    color: turquoise;
 }
 
 .flex-container2 > div{
-    background-color:lightgrey;
+    background-color:black;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     margin: 10px;
     text-align: center;
     line-height: 75px;
