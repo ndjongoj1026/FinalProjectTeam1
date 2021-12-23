@@ -1,12 +1,17 @@
 h1{
     text-align: center;
     text-decoration: underline;
+    
 }
 
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    border-style: ridge;
+    border-color:lightslategray;
+    width: 1000px;
+    margin: 500px;
 }
 
 iframe{
@@ -23,4 +28,6 @@ iframe{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    border-style: ridge;
+    border-color: lightslategray;
 }
