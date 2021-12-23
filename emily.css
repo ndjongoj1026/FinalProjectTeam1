@@ -55,8 +55,8 @@ span {
 }
 
 iframe{
-    height: 500px;
-    width: 873px;
+    height: 250px;
+    width: 485px;
 }
 
 .flex-container2 {
@@ -73,7 +73,7 @@ iframe{
 }
 
 .flex-container1 > div {
-    background-color:black;
+    background-color:darkslategray;
     margin: 10px;
     font-size: 20px;
     border-style: ridge;
@@ -82,7 +82,7 @@ iframe{
 }
 
 .flex-container2 > div{
-    background-color:black;
+    background-color:darkslategray;
     display: flex;
     flex-direction: column;
     margin: 10px;
