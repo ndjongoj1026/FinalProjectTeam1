@@ -71,8 +71,8 @@ body {
     font-size: 15px;
 }
 
-#subscribe,
-#bottom {
+#subscribe, type
+    {
     text-align: center;
     color: thistle;
     min-width: 1000px;
@@ -84,8 +84,8 @@ body {
     float: right;
     padding: 20px;
 }
-#topLinks ul,
-#footer ul {
+#topLinks ul
+     {
     margin: 0;
     padding: 0;
     
