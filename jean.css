@@ -55,24 +55,25 @@ body {
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    #topMenu .logo {
+}
+#topMenu .logo {
         float: left;
         padding: 13px;
         font-size: 24px;
                 
-    }
-    #banner {
+}
+#banner {
        width: 100%;
        text-align: center;
        padding-top: 300px;
-    }
-    .feature .leftColumn {
+}
+.feature .leftColumn {
         width: 50%;
         float: left;
         text-align: center;
-    }
-    .feature .rightColumn {
+}
+.feature .rightColumn {
        margin-left: 50%;
        width: 50%;
        text-align: center; 
-    }
+}
