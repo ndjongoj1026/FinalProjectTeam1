@@ -1,3 +1,26 @@
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    margin: 10px;
+    padding: 0 10px;
+    align-items: center;
+    align-content: center;
+}
+.container, li, a {
+    display: flex;
+    float: right;
+    margin: 5px;
+    padding: 0 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    color: turquoise;
+    text-decoration: none;
+}
+
 h1, h2 {
     margin: 0;
     padding: 0;
