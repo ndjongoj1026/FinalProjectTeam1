@@ -72,7 +72,7 @@ body {
 }
 
 #subscribe,
-#footer {
+#bottom {
     text-align: center;
     color: thistle;
     min-width: 1000px;
@@ -122,4 +122,16 @@ body {
 }
 body {
     background-color: darkgrey;
+}
+footer {
+    background-color: black;
+    color: aquamarine;
+    width: 100%;
+    height: 40px;
+    position:fixed;
+    bottom: 0%;
+    text-align: center;
+}
+h6 {
+    padding: 15px;
 }
