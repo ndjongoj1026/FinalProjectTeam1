@@ -42,7 +42,6 @@ span {
 }
 
 .flex-container1 {
-    background-color: teal;
     display: flex;
     flex-direction: column;
     border-style: ridge;
@@ -60,7 +59,6 @@ iframe{
 }
 
 .flex-container2 {
-    background-color:teal;
     flex-direction: column;
     border-style: ridge;
     border-color:tomato;
@@ -69,20 +67,17 @@ iframe{
     margin-bottom: 50px;
     margin-right: 500px;
     margin-left: 500px;
-    color: turquoise;
+    color: black;
 }
 
 .flex-container1 > div {
-    background-color:darkslategray;
     margin: 10px;
     font-size: 20px;
     border-style: ridge;
     border-color: tomato;
-    color: turquoise;
 }
 
 .flex-container2 > div{
-    background-color:darkslategray;
     display: flex;
     flex-direction: column;
     margin: 10px;
