@@ -86,12 +86,14 @@ aside {
     display: grid;
     grid-template-columns: 1fr;
 }
-#top5item {
+#top5item > a {
     display: flex;
     clear: none;
     float: none;
     text-transform: none;
     text-justify: distribute-all-lines;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 section.trend , h3 , p{
     padding: 10px 50px;
