@@ -45,19 +45,18 @@ span {
     
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 600px;
+    margin-left: 600px;
 }
 
-iframe{
+iframe {
     height: 250px;
     width: 485px;
+    
 }
 
 .flex-container {
     flex-direction: column;
-    border-style: ridge;
-    border-color:tomato;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -66,20 +65,14 @@ iframe{
     color: black;
 }
 
-.flex-container1 > div {
-    margin: 10px;
-    font-size: 20px;
-}
-
-.flex-container > div{
+.flex-container > div {
     display: flex;
     flex-direction: column;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-    border-style: ridge;
-    border-color: tomato;
+    
 }
 
 footer {
