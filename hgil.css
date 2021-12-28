@@ -14,12 +14,16 @@ header {
     background-color: black;
     color: white;
 }
-.marker , .marker-right {
+.marker , #marker-right {
     display: inline-flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    padding: 10px 50px;
+    padding: 0px 50px;
+    margin: 0 45px;
+}
+#marker-right {
+    padding: 0 15px;
 }
 .lord-icon {
     display: flex;
@@ -27,8 +31,6 @@ header {
     align-items: center;
     justify-content: center;
     transition-delay: 3s;
-    transition-property: all margin-right;
-    
 }
 nav {
     display: flex;
@@ -63,14 +65,15 @@ span {
 section {
     display: grid;
     grid-template: 1fr;
-    padding: 30px 30px;
-    margin: 50px;
+    padding: 0px 50px;
+    margin: 0px 50px;
     align-items: center;
     align-content: center;
 }
 h3 {
     text-align: center;
     font-size: 2em;
+    padding: 20px 5px;
 }
 p {
     padding: 15px 70px;
@@ -83,14 +86,12 @@ aside {
     display: grid;
     grid-template-columns: 1fr;
 }
-.aside-parent {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    color: white;
-    background-color: gray;
-    text-decoration: none;
+#top5item {
+    display: flex;
+    clear: none;
+    float: none;
+    text-transform: none;
+    text-justify: distribute-all-lines;
 }
 footer {
     background-color: black;
@@ -100,6 +101,7 @@ footer {
     position:fixed;
     bottom: 0%;
     text-align: center;
+    padding-bottom: 35px 0;
 }
 h6 {
     padding: 15px;
