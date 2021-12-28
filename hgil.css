@@ -14,6 +14,22 @@ header {
     background-color: black;
     color: white;
 }
+.marker , .marker-right {
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 50px;
+}
+.lord-icon {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    transition-delay: 3s;
+    transition-property: all margin-right;
+    
+}
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -54,6 +70,7 @@ section {
 }
 h3 {
     text-align: center;
+    font-size: 2em;
 }
 p {
     padding: 15px 70px;
