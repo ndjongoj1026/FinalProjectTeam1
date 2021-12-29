@@ -48,21 +48,9 @@ span {
 }
 
 .div1 {
-<<<<<<< HEAD
-    display: grid;
-    grid-column: 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 600px;
-    margin: 25px 5px;
-    font-size: 17px;
-=======
     margin: 50px 75px;
     font-size: 20px;
     text-align: center;
->>>>>>> 86a17b0ea1f77b515e14163afa536aff35067c48
 }
 
 .div2 {
