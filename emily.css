@@ -57,10 +57,15 @@ span {
 }
 
 .div2 {
-    display: flex;
-    flex-direction:row;
-    text-align: wrap;
-    
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 50px;
+    margin: 0 45px;
+    font-size: 30px;
+    font-family: exo;
+    font-weight: 600;
 }
 
 iframe {
@@ -112,16 +117,4 @@ h6 {
     border: gray solid 2px;
     padding: 3px 10px;
     border-radius: 40px;
-}
-
-.marker , #marker-right {
-    display: inline-flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding: 0px 50px;
-    margin: 0 45px;
-    font-size: 30px;
-    font-family: exo;
-    font-weight: 600;
 }
