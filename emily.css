@@ -21,6 +21,9 @@ nav {
     padding: 0 10px;
     align-items: center;
     align-content: center;
+    font-family: exo;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .container, li, a {
@@ -57,6 +60,8 @@ span {
     text-align: center;
     margin: 50px 600px;
     font-size: 30px;
+    font-family: exo;
+    font-weight: 600;
 }
 
 iframe {
@@ -66,17 +71,22 @@ iframe {
 }
 
 .flex-container {
+    display: flex;
     flex-direction: column;
     text-align: center;
     margin: 50px 525px;
     color: black;
+    align-content: center;
 }
 
 .flex-container > div {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 5px 125px;
     font-size: 15px;
+    width: 250px;
+    align-content: center;
 }
 
 footer {
@@ -97,6 +107,8 @@ h6 {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: exo;
+    font-weight: 600;
     background-color: lightgray;
     border: gray solid 2px;
     padding: 3px 10px;

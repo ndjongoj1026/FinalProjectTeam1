@@ -29,6 +29,7 @@ nav {
     align-content: center;
     font-family: exo;
     font-weight: 800;
+    font-size: 20px;
 }
 .container, li, a {
     display: flex;
