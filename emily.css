@@ -47,11 +47,14 @@ span {
 }
 
 .div1 {
-    
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 600px;
-    margin-left: 600px;
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 600px;
+    margin: 25px 5px;
     font-size: 17px;
 }
 
