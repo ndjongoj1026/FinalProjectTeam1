@@ -41,7 +41,7 @@ nav {
     align-items: center;
     align-content: center;
 }
-.container, li, a {
+.container , li > a {
     display: flex;
     float: right;
     margin: 5px;
@@ -82,10 +82,7 @@ p {
     line-height: 1.5em;
     font-size: 1.2em;
 }
-aside {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+/*
 #top5item > a {
     display: flex;
     clear: none;
@@ -94,13 +91,31 @@ aside {
     text-justify: distribute-all-lines;
     font-weight: 500;
     text-transform: uppercase;
-}
+}*/
 section.trend , h3 , p{
     padding: 10px 50px;
     margin: 10px 50px;
 }
-.trends {
-    padding: 20px;
+.innovation {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: lightgray;
+    border: gray solid 2px;
+    padding: 3px 10px;
+    border-radius: 25px;
+}
+.innovation:hover {
+    padding-top: 10px;
+    font-size: 1.4em;
+    transition: 1s ease-in-out;
+    transition-timing-function: linear;
+}
+.findtrend > a {
+    padding: 50px 0px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: none;
 }
 .trend-item , h4 {
     font-size: 1.5em;
