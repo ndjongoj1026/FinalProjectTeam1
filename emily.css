@@ -47,20 +47,14 @@ span {
 }
 
 .div1 {
-    
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 600px;
-    margin-left: 600px;
-    font-size: 17px;
+    margin: 50px 75px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .div2 {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin: 50px 600px;
     font-size: 30px;
 }
 
@@ -73,10 +67,7 @@ iframe {
 .flex-container {
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 500px;
-    margin-left: 500px;
+    margin: 50px 525px;
     color: black;
 }
 
