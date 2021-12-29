@@ -74,7 +74,7 @@ iframe {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 50px 525px;
+    margin: 50px 500px;
     color: black;
     align-content: center;
 }
@@ -83,7 +83,7 @@ iframe {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 5px 125px;
+    margin: 5px 105px;
     font-size: 15px;
     width: 250px;
     align-content: center;
