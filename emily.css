@@ -27,6 +27,9 @@ nav {
     font-weight: 800;
     font-size: 20px;
 }
+lord-icon {
+    cursor: pointer;
+}
 nav a:hover {
     color: tomato;
     transform:rotate(8deg);

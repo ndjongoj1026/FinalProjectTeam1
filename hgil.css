@@ -116,7 +116,7 @@ section.trend , h3 , p{
 }
 .innovation:hover {
     padding-top: 10px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     transition: 1s ease-in-out;
     transition-timing-function: linear;
 }

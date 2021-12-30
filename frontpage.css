@@ -28,6 +28,11 @@ nav {
     font-weight: 800;
     font-size: 20px;
 }
+nav a:hover {
+    color: tomato;
+    transform:rotate(8deg);
+    transition: all 1s ease-out;
+}
 .container , li > a {
     display: flex;
     float: right;
