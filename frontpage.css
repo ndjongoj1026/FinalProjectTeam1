@@ -101,5 +101,8 @@ h6 {
         background-size: 200%;
         background-repeat: no-repeat;
     }
-    
+    h3 {
+        padding: 25px;
+        font-size: 1.1em;
+}
 }
