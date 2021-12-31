@@ -108,13 +108,15 @@ section.trend , h3 , p{
 .innovation {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
-    background-color: lightgray;
-    border: gray solid 2px;
+    color: turquoise;
+    background-color: black;
+    border: turquoise solid 1px;
     padding: 3px 10px;
     border-radius: 25px;
 }
 .innovation:hover {
+    color: tomato;
+    border: tomato solid 2px;
     padding-top: 10px;
     font-size: 1.2em;
     transition: 1s ease-in-out;
@@ -130,6 +132,12 @@ section.trend , h3 , p{
     font-size: 1.5em;
     padding: 2px 50px;
     margin: 2px 50px;
+}
+.trending {
+    background-color: black;
+    color: turquoise;
+    border: tomato solid 2px;
+    text-align: center;
 }
 
 footer {
